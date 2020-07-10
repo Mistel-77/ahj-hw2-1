@@ -23,7 +23,7 @@ export default class Board {
           index = 0;
         }
       }
-      cellList[index].innerHTML = '<img src="./img/goblin.png">';
+      cellList[index].innerHTML = '<img src="../img/goblin.png">';
       cellList[lastIndex].innerHTML = '';
       lastIndex = index;
     }, 800);
